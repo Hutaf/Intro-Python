@@ -28,3 +28,6 @@ print (MyName.split(".")) # return a copy of string after splitting it based upo
 print (MyName.find("a")) # returns the index of the start of the first occurrence of substring within string.
 print (MyName.count("a")) # returns number of occurrences of substring  within string.
 print (MyName.capitalize()) # returns a copy of string after converting the first character to uppercase.
+
+MyList =["Saher", "R."]
+print (MyName.join(MyList))
